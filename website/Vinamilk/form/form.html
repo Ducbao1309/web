@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TRANG ĐĂNG KÝ</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>ĐĂNG KÝ</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="txtName">Họ và tên</label>
+                <input type="text" id="txtName" name="fullName" required placeholder="Nhập họ và tên"><br>
+                
+                <label for="txtPhone">Số Điện Thoại</label>
+                <input type="tel" id="txtPhone" name="phone" required placeholder="Nhập số điện thoại"><br>
+                
+                <label for="txtPassword">Nhập mật khẩu</label>
+                <input type="password" id="txtPassword" name="password" required placeholder="Nhập mật khẩu"><br>
+                
+                <label for="txtPasswordConfirm">Nhập lại mật khẩu</label>
+                <input type="password" id="txtPasswordConfirm" name="passwordConfirm" required placeholder="Nhập lại mật khẩu"><br>
+                
+                <button type="submit">Đăng ký</button>
+                <button type="submit">Đăng Nhập</button><br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

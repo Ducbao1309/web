@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+        }
+        .content {
+            box-shadow: 0 10px 20px 20px rgba(0, 0, 10, 0.2);
+            padding: 30px;
+            width: 500px;
+            height: 400px;
+            border-radius: 20px;
+            background-color: rgb(174, 245, 245);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 40px;
+        }
+        form label {
+            margin-bottom: 5px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        form input {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 14px;
+        }
+        form button {
+            display: block; /* Đặt nút thành block để dễ căn giữa */
+            margin: auto; /* Căn giữa nút */
+            padding: 10px 20px;
+            background-color: black;
+            border-radius: 7px;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+        form button:hover {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>ĐĂNG NHẬP</h1>
+            <form action="">
+                <label for="txtName">Tên đăng nhập</label><br>
+                <input type="text" name="" id="txtName" required placeholder="Nhập tên đăng nhập"><br>
+                <label for="txtPassword">Mật khẩu</label><br>
+                <input type="password" name="" id="txtPassword" required placeholder="Nhập mật khẩu"><br>
+                <button type="submit">Đăng Nhập</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
